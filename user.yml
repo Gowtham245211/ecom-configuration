@@ -1,1 +1,6 @@
-
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/userdb
+#     uri: mongodb+srv://gowthamravichandran47_db_user:<db_password>@userdb.dy3dgsu.mongodb.net/?appName=userdb
+      database: userdb
